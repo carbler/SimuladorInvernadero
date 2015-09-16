@@ -19,35 +19,35 @@ public class SimuladorInvernadero {
     public static void main(String[] args) {
        Scanner leer = new Scanner(System.in);
         Bombillo ob=new Bombillo();
-       
-       String seguir="s";
-       
-       while (seguir.equals("s")){
-             System.out.println("¿Que desea hacer?");
-             System.out.println("1.Apagar Bombillo");
-             System.out.println("2.Encender Bombillo");
-             
-             int x=leer.nextInt();
-               switch(x){
-                case 1: ob.apagar();
-                         System.out.println("calor emitida : "+ob.calor+" /n"+"luz emitida: "+ob.lumines);
-                    
-                        break;
-                    
-                case 2: ob.encender();
-                          System.out.println("calor emitida : "+ob.calor+" /n"+"luz emitida: "+ob.lumines);
-                     
-                      
-                        break;
-                 
-               
-                   
-            }
-               
-               System.out.println("Desea jugar nuevamente? s/n");
-               seguir= leer.next();
-               
-       }
+//       
+//       String seguir="s";
+//       
+//       while (seguir.equals("s")){
+//             System.out.println("¿Que desea hacer?");
+//             System.out.println("1.Apagar Bombillo");
+//             System.out.println("2.Encender Bombillo");
+//             
+//             int x=leer.nextInt();
+//               switch(x){
+//                case 1: ob.apagar();
+//                         System.out.println("calor emitida : "+ob.calor+"||"+"luz emitida: "+ob.lumines);
+//                    
+//                        break;
+//                    
+//                case 2: ob.encender();
+//                          System.out.println("calor emitida : "+ob.calor+"||"+"luz emitida: "+ob.lumines);
+//                     
+//                      
+//                        break;
+//                 
+//               
+//                   
+//            }
+//               
+//               System.out.println("Desea jugar nuevamente? s/n");
+//               seguir= leer.next();
+//               
+//       }
         
     }
     
